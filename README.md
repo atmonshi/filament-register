@@ -1,3 +1,6 @@
+this was downloaded from
+https://filament-issue.unitedbycode.com/
+
 clone and serve :)
 
 - visit /avatar
@@ -7,3 +10,4 @@ clone and serve :)
 - visit /avatar
   - you should get 
     "Call to a member function getDefaultAvatarProvider() on null"
+- to confirm, delete `bootstrap/cache/routes-*.php` or `route:clear`
